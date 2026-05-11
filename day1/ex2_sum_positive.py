@@ -1,10 +1,9 @@
-def sum_postive(list):
+def sum_positive(numbers):
     total = 0
-    for num in list:
-        if num >= 0:
+    for num in numbers:
+        if num > 0:         
             total += num
     return total
 
 
-
-print(sum_postive([10, -5, 20, -3, 0, 7]))
+print(sum_positive([10, -5, 20, -3, 0, 7]))  
